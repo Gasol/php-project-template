@@ -77,7 +77,7 @@
 
  <target name="phpdoc" description="Generate API documentation using PHPDocumentor">
   <exec executable="${vendor_bin}/phpdoc">
-   <arg line="-d ${source} -t ${basedir}/build/api --template=new-black" />
+   <arg line="-d ${source} -t ${basedir}/build/api --template=new-black --sourcecode" />
   </exec>
  </target>
 
