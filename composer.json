@@ -1,11 +1,11 @@
 {
-    "name": "gasolwu/php-project-template",
+    "name": "@VENDOR_NAME@/@MODULE_NAME@",
     "description": "PHP project template that can be created by composer",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "yourname@example.com"
+            "name": "@AUTHOR_NAME@",
+            "email": "people@example.com"
         }
     ],
     "require": {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\Module\\": "src"
+            "@VENDOR_NAME\\@MODULE_NAME\\": "src"
         }
     }
 }
