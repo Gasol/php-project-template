@@ -4,8 +4,8 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "yourname@example.com"
+            "name": "@AUTHOR_NAME@",
+            "email": "people@example.com"
         }
     ],
     "require": {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\Module\\": "src"
+            "@VENDOR_NAME@\\@MODULE_NAME@\\": "src"
         }
     }
 }

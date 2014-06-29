@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="php-project" default="build" basedir=".">
+<project name="@PROJECT_NAME@" default="build" basedir=".">
  <property name="vendor_bin" value="vendor/bin"/>
  <property name="source" value="src"/>
 
